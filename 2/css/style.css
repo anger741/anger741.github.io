@@ -22,7 +22,7 @@ body {
     margin: 0 auto;
     width: 960px;
     height: 883px;
-    background-image: url(D:/Project/2/img/bg.jpg);
+    background-image: url(../img/bg.jpg);
     padding-left: 63px;
     box-sizing: border-box;
 }
