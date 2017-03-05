@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet" type="text/css">
+    
+    <link rel="stylesheet" href="font/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+   <script src="js/jquery-3.1.1.min.js"></script>   
+   <script src="js/dropdown.js"></script>
+   <link rel="stylesheet" href="css/dropdown.css">
+   <script>
+       $(document).ready(function(){
+           $("select").dropdown();
+        })
+   </script>
+</head>   
+<body>
+    <div class="header clearfix">
+        <div class="topside-header">
+            <div class="call"><a href="#"><i class="fa fa-phone" aria-hidden="true"></i> call +380505555555</a></div>
+            <ul class="user-menu">
+                <li><a href="#">WELCOME MSG!</a></li>
+                <li><a href="#">MY ACCOUNT</a></li>
+                <li><a href="#">MY WISHLIST</a></li>
+                <li><a href="#">LOGIN</a></li>
+            </ul>
+        </div>
+        <div class="bottomside-header clearfix">
+            <ul class="main-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallary</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Pages</a></li>
+            </ul>
+            <div class="title">Shophia</div>
+            <div>
+                <ul class="social">
+                    <li class="fb"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li class="tw"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li class="pinterst"><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                    <li class="instagram"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="currency">
+                <select name="currency">
+                    <option disable="currency">Выборите валюты</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option selected value="UAH">UAH</option>
+                    <option value="RUR">RUR</option>
+                </select>
+            </div>
+            
+        </div>
+        
+    </div>
+</body>
+</html>
