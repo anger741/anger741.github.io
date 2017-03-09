@@ -85,7 +85,7 @@ body {
     border-bottom: 1px solid black; /*удалить*/
     padding: 0;
     margin:0;
-    background-color: aquamarine;
+    
 }
 .main-menu {
     float: left;
@@ -95,7 +95,7 @@ body {
     padding-left: 80px;
     margin: 49px 0 70px 0 ;
     margin-right: 0;
-    background-color: bisque;
+    
 }
 .main-menu li {
     list-style: none;
@@ -115,36 +115,65 @@ body {
 .title {
     float: left;
     font-family: 'krinkes_decor_personal_useRg';
-    font-size: 60px;
+    font-size: 70px;
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 180px;
     margin-right: 0;
-    margin-top: 35px;
-    background-color: blueviolet;
+    margin-top: 25px;
+    
 }
-.social {
+.social-menu {
     float: left;
-    
-    
+        
     list-style: none;
     display: inline-block;
-    margin: 45px 0 0 200px;
-    width: 200px;
-    background-color: cadetblue;
+    margin: 45px 0 0 140px;
+    width: 270px;
+    
     
 }
-.social li {
+.social-menu li {
     display: inline-block;
     border: 2px solid #ccb27c;
     border-radius: 50%;
     width: 25px;
     height: 25px;
-    padding: 7px;
+    padding: 20px;
+   margin-right: 10px;
+}
+.social-menu li a{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    color: #ccb27c;
+    font-size: 20px;
+    margin: -13px 0 0 -8px;
+    
+}
+/*.currency {
+    float: right;
+    margin: 55px 50px 0 0;
+   
+}*/
+.dropdown {
+    float: right;
+    width: 100px;
+    margin-top: 50px;
+    margin-right: 40px;
    
 }
-.social li a{
-    color: #ccb27c;
+.currency button {
+    background-color: black;
+    border-radius: 0;
+    width: 70px;
+    color: white;
 }
-.currency {
-    float: right;
+.currency button:hover {
+    background-color: #5a5a5b;
+    color: white;
+}
+.dropdown-menu {
+    position: absolute;
+    right: 150px;
+    width: 100px;
 }
